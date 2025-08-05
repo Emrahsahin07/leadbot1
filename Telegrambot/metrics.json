@@ -1,0 +1,12 @@
+{
+  "received": 89,
+  "region_detected": 87,
+  "category_not_detected": 79,
+  "no_category_match": 79,
+  "no_region": 2,
+  "category_heuristic_detected": 8,
+  "coverage_ok": 8,
+  "ai_dropped": 7,
+  "pref_ai_category_skipped": 2,
+  "leads_sent": 1
+}

@@ -1,0 +1,868 @@
+[
+  {
+    "text": "Срочно нужен трансфер из аэропорта Анталии до отеля завтра вечером",
+    "expected": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия",
+      "confidence": 0.92,
+      "explanation": "Запрос трансфера",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "срочно хочу трансфер из аэропорта анталии до отеля завтра вечером",
+    "expected": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия",
+      "confidence": 0.92,
+      "explanation": "Запрос трансфера",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Хочу взять индивидуальную экскурсию по Каппадокии на выходных",
+    "expected": {
+      "relevant": true,
+      "category": "экскурсии",
+      "region": "Каппадокия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "экскурсии",
+      "region": "Каппадокия",
+      "confidence": 0.85,
+      "explanation": "Запрос на экскурсию",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Какие документы нужно собрать для оформления ВНЖ в Турции?",
+    "expected": {
+      "relevant": true,
+      "category": "внж",
+      "region": "Турция"
+    },
+    "got": {
+      "relevant": true,
+      "category": "внж",
+      "region": "Турция",
+      "confidence": 0.85,
+      "explanation": "Запрос информации о ВНЖ",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Ищу квартиру на долгий срок в Стамбуле, можно с мебелью",
+    "expected": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Стамбул"
+    },
+    "got": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Стамбул",
+      "confidence": 0.85,
+      "explanation": "Запрос о недвижимости",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Хочу арендовать машину в Аланье на неделю",
+    "expected": {
+      "relevant": true,
+      "category": "аренда авто",
+      "region": "Аланья"
+    },
+    "got": {
+      "relevant": true,
+      "category": "аренда авто",
+      "region": "Аланья",
+      "confidence": 0.92,
+      "explanation": "Запрос аренды авто",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Сколько стоит страховка путешественника в Турции?",
+    "expected": {
+      "relevant": true,
+      "category": "страховка",
+      "region": "Турция"
+    },
+    "got": {
+      "relevant": true,
+      "category": "страховка",
+      "region": "Турция",
+      "confidence": 0.85,
+      "explanation": "Уточнение стоимости страховки",
+      "override_reason": "post-hoc страховка override"
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Где лучше обменять валюту в Манавгате?",
+    "expected": {
+      "relevant": true,
+      "category": null,
+      "region": "Манавгат"
+    },
+    "got": {
+      "relevant": true,
+      "category": null,
+      "region": "Манавгат",
+      "confidence": 0.85,
+      "explanation": "Запрос о обмене валюты",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Нужен водитель для трансфера из Каша в Анталию послезавтра",
+    "expected": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия",
+      "confidence": 0.92,
+      "explanation": "Запрос трансфера",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "хочу водитель для трансфера из каша в анталию послезавтра",
+    "expected": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Анталия",
+      "confidence": 0.85,
+      "explanation": "Запрос трансфера",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Подскажите, как получить резидентство в Турции — какие шаги?",
+    "expected": {
+      "relevant": true,
+      "category": "внж",
+      "region": "Турция"
+    },
+    "got": {
+      "relevant": true,
+      "category": "внж",
+      "region": "Турция",
+      "confidence": 0.85,
+      "explanation": "Запрос информации о получении ВНЖ",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Ищу уборщика для квартиры 3+1 в Лимане на постоянной основе",
+    "expected": {
+      "relevant": true,
+      "category": "клининг",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "клининг",
+      "region": "Лиман",
+      "confidence": 0.85,
+      "explanation": "Запрос услуги уборки",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": false
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Пока просто смотрю варианты жилья в Стамбуле, не готов решать",
+    "expected": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Стамбул"
+    },
+    "got": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Стамбул",
+      "confidence": 0.85,
+      "explanation": "Интерес к жилью",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Не интересует трансфер, спасибо",
+    "expected": {
+      "relevant": false,
+      "category": "трансфер",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": "трансфер",
+      "region": null,
+      "confidence": 0.0,
+      "explanation": "Отказ от услуги",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Рассматриваю экскурсии на будущее, пока ничего не заказываю",
+    "expected": {
+      "relevant": false,
+      "category": "экскурсии",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": "экскурсии",
+      "region": null,
+      "confidence": 0.85,
+      "explanation": "Интерес к экскурсиям",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Просто обсуждаем, как было в прошлый раз в Кемере",
+    "expected": {
+      "relevant": false,
+      "category": "экскурсии",
+      "region": "Кемер"
+    },
+    "got": {
+      "relevant": false,
+      "category": null,
+      "region": "Кемер",
+      "confidence": 0.4,
+      "explanation": "Обсуждение прошлого опыта",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": false,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Сейчас не планирую оформление ВНЖ, просто читаю информацию",
+    "expected": {
+      "relevant": false,
+      "category": "внж",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": "внж",
+      "region": null,
+      "confidence": 0.0,
+      "explanation": "Информационный запрос",
+      "override_reason": " post-hoc внж override"
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "VIP трансфер из аэропорта: бронируйте сейчас! Контакты: @vipdriver",
+    "expected": {
+      "relevant": false,
+      "category": "трансфер",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": "трансфер",
+      "region": null,
+      "confidence": 0.0,
+      "explanation": "Реклама/продажа",
+      "override_reason": " post-hoc transfer override"
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Экскурсия в Памуккале по сниженной цене, звоните и бронируйте у нас!",
+    "expected": {
+      "relevant": false,
+      "category": "экскурсии",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": null,
+      "region": null,
+      "confidence": 0.0,
+      "explanation": "Реклама/продажа",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": false,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Сдаю 2+1 в Кемере без посредников, 550€, звоните на WhatsApp +90...",
+    "expected": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Кемер"
+    },
+    "got": {
+      "relevant": false,
+      "category": null,
+      "region": "Кемер",
+      "confidence": 0.92,
+      "explanation": "Реклама/продажа",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": false,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Оформим ВНЖ быстро! Все документы под ключ, пишите в личку",
+    "expected": {
+      "relevant": false,
+      "category": "внж",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": "внж",
+      "region": null,
+      "confidence": 0.92,
+      "explanation": "Реклама услуги оформления ВНЖ",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Страховка для туристов — спецпредложение! Купи сейчас и сэкономь",
+    "expected": {
+      "relevant": false,
+      "category": "страховка",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": "страховка",
+      "region": null,
+      "confidence": 0.0,
+      "explanation": "Реклама/продажа",
+      "override_reason": " post-hoc страховка override"
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Хочу трансфер, но пока просто сравниваю цены",
+    "expected": {
+      "relevant": false,
+      "category": "трансфер",
+      "region": null
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": null,
+      "confidence": 0.85,
+      "explanation": "Запрос на сравнение цен",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": false,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Есть интерес к экскурсии, но не уверен, когда поеду",
+    "expected": {
+      "relevant": false,
+      "category": "экскурсии",
+      "region": null
+    },
+    "got": {
+      "relevant": true,
+      "category": "экскурсии",
+      "region": null,
+      "confidence": 0.7,
+      "explanation": "Интерес, неуверенность",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": false,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Нужен трансфер из аэропорта, подскажите варианты и цены",
+    "expected": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": null
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": null,
+      "confidence": 0.85,
+      "explanation": "Запрос трансфера и цен",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "хочу трансфер из аэропорта, подскажите варианты и цены",
+    "expected": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": null
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": null,
+      "confidence": 0.85,
+      "explanation": "Запрос информации о трансфере",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Продаём экскурсии в Стамбуле дешевле всех, бронируйте у нас!",
+    "expected": {
+      "relevant": false,
+      "category": "экскурсии",
+      "region": "Стамбул"
+    },
+    "got": {
+      "relevant": false,
+      "category": null,
+      "region": null,
+      "confidence": 0.0,
+      "explanation": "Реклама/продажа",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": false,
+      "region": false
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Хочу узнать про жильё в Анталии, может снять на месяц",
+    "expected": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия",
+      "confidence": 0.85,
+      "explanation": "Запрос о жилье",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "подскажите про жильё в анталии, может снять на месяц",
+    "expected": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия",
+      "confidence": 0.85,
+      "explanation": "Запрос о жилье",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Хочу узнать про жильё в Анталии, может снять на месяц пока просто рассматриваю",
+    "expected": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Анталия",
+      "confidence": 0.85,
+      "explanation": "Запрос о жилье",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "text": "Интересует аренда авто, но пока просто смотрю предложения",
+    "expected": {
+      "relevant": false,
+      "category": "аренда авто",
+      "region": null
+    },
+    "got": {
+      "relevant": false,
+      "category": "аренда авто",
+      "region": null,
+      "confidence": 0.85,
+      "explanation": "Запрос информации о аренде авто",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Сдаю дом на долгий срок в Аланье, 3+1, вид на море, без комиссии",
+    "expected": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Аланья"
+    },
+    "got": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Аланья",
+      "confidence": 0.92,
+      "explanation": "Объявление о сдаче недвижимости",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Ищу краткосрочную аренду квартиры в Анталии, до 500€ за ночь",
+    "expected": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия",
+      "confidence": 0.92,
+      "explanation": "Запрос аренды квартиры",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Какие есть варианты трансфера из аэропорта в Сиде?",
+    "expected": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Сиде"
+    },
+    "got": {
+      "relevant": true,
+      "category": "трансфер",
+      "region": "Сиде",
+      "confidence": 0.92,
+      "explanation": "Запрос вариантов трансфера",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Хочу прокатиться на яхте, кто организует экскурсию?",
+    "expected": {
+      "relevant": true,
+      "category": "экскурсии",
+      "region": null
+    },
+    "got": {
+      "relevant": true,
+      "category": "экскурсии",
+      "region": null,
+      "confidence": 0.85,
+      "explanation": "Запрос организации экскурсии",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Предлагаем услуги клининга в Анталии, контакт в описании",
+    "expected": {
+      "relevant": false,
+      "category": "клининг",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": false,
+      "category": "клининг",
+      "region": "Анталия",
+      "confidence": 0.92,
+      "explanation": "Реклама/продажа",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Ищу дом в Анталии на долгий срок, можно с видом на море",
+    "expected": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия"
+    },
+    "got": {
+      "relevant": true,
+      "category": "недвижимость",
+      "region": "Анталия",
+      "confidence": 0.85,
+      "explanation": "Запрос недвижимости",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Продаётся 2+1 в Кемере без посредников, 550€ в месяц",
+    "expected": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Кемер"
+    },
+    "got": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Кемер",
+      "confidence": 0.92,
+      "explanation": "Реклама недвижимости",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  },
+  {
+    "group": "competitor",
+    "text": "Рассматриваю недвижимость в Стамбуле, просто собираю информацию",
+    "expected": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Стамбул"
+    },
+    "got": {
+      "relevant": false,
+      "category": "недвижимость",
+      "region": "Стамбул",
+      "confidence": 0.85,
+      "explanation": "Запрос информации о недвижимости",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": true,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  }
+]

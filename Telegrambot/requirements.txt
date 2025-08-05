@@ -1,0 +1,8 @@
+python-dotenv
+telethon
+openai
+rapidfuzz
+flask
+aiofiles
+tenacity
+snowballstemmer==3.0.1

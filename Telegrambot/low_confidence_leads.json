@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Есть интерес к экскурсии, но не уверен, когда поеду",
+    "expected": {
+      "relevant": false,
+      "category": "экскурсии",
+      "region": null
+    },
+    "got": {
+      "relevant": true,
+      "category": "экскурсии",
+      "region": null,
+      "confidence": 0.7,
+      "explanation": "Интерес, неуверенность",
+      "override_reason": ""
+    },
+    "matches": {
+      "relevant": false,
+      "category": true,
+      "region": true
+    },
+    "timestamp": "08-01 23:57"
+  }
+]

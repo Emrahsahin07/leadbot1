@@ -1,0 +1,303 @@
+{
+  "noise_recommendations": [
+    {
+      "term": "1",
+      "freq": 1887,
+      "tfidf_per_freq": 1.6234
+    },
+    {
+      "term": "2",
+      "freq": 855,
+      "tfidf_per_freq": 2.1031
+    },
+    {
+      "term": "квартира",
+      "freq": 574,
+      "tfidf_per_freq": 2.342
+    },
+    {
+      "term": "сдам",
+      "freq": 428,
+      "tfidf_per_freq": 2.4576
+    },
+    {
+      "term": "моря",
+      "freq": 355,
+      "tfidf_per_freq": 2.6742
+    },
+    {
+      "term": "аренда",
+      "freq": 390,
+      "tfidf_per_freq": 2.6802
+    },
+    {
+      "term": "бассейн",
+      "freq": 388,
+      "tfidf_per_freq": 2.7421
+    },
+    {
+      "term": "3",
+      "freq": 368,
+      "tfidf_per_freq": 2.7582
+    },
+    {
+      "term": "трансфер",
+      "freq": 395,
+      "tfidf_per_freq": 2.7912
+    },
+    {
+      "term": "цена",
+      "freq": 300,
+      "tfidf_per_freq": 2.8323
+    },
+    {
+      "term": "квартиру",
+      "freq": 278,
+      "tfidf_per_freq": 2.8715
+    },
+    {
+      "term": "без",
+      "freq": 315,
+      "tfidf_per_freq": 2.8899
+    },
+    {
+      "term": "внж",
+      "freq": 298,
+      "tfidf_per_freq": 3.0035
+    },
+    {
+      "term": "депозит",
+      "freq": 254,
+      "tfidf_per_freq": 3.0118
+    },
+    {
+      "term": "рядом",
+      "freq": 246,
+      "tfidf_per_freq": 3.0416
+    },
+    {
+      "term": "этаж",
+      "freq": 216,
+      "tfidf_per_freq": 3.1317
+    },
+    {
+      "term": "сауна",
+      "freq": 200,
+      "tfidf_per_freq": 3.195
+    },
+    {
+      "term": "комиссии",
+      "freq": 196,
+      "tfidf_per_freq": 3.2204
+    },
+    {
+      "term": "кто",
+      "freq": 202,
+      "tfidf_per_freq": 3.2308
+    },
+    {
+      "term": "море",
+      "freq": 204,
+      "tfidf_per_freq": 3.2572
+    }
+  ],
+  "candidate_keywords": [
+    {
+      "term": "1",
+      "freq": 1887,
+      "tfidf": 3063.44,
+      "ratio": 1.6234
+    },
+    {
+      "term": "2",
+      "freq": 855,
+      "tfidf": 1798.15,
+      "ratio": 2.1031
+    },
+    {
+      "term": "квартира",
+      "freq": 574,
+      "tfidf": 1344.29,
+      "ratio": 2.342
+    },
+    {
+      "term": "трансфер",
+      "freq": 395,
+      "tfidf": 1102.52,
+      "ratio": 2.7912
+    },
+    {
+      "term": "бассейн",
+      "freq": 388,
+      "tfidf": 1063.93,
+      "ratio": 2.7421
+    },
+    {
+      "term": "сдам",
+      "freq": 428,
+      "tfidf": 1051.86,
+      "ratio": 2.4576
+    },
+    {
+      "term": "аренда",
+      "freq": 390,
+      "tfidf": 1045.26,
+      "ratio": 2.6802
+    },
+    {
+      "term": "3",
+      "freq": 368,
+      "tfidf": 1015.02,
+      "ratio": 2.7582
+    },
+    {
+      "term": "моря",
+      "freq": 355,
+      "tfidf": 949.33,
+      "ratio": 2.6742
+    },
+    {
+      "term": "без",
+      "freq": 315,
+      "tfidf": 910.31,
+      "ratio": 2.8899
+    },
+    {
+      "term": "внж",
+      "freq": 298,
+      "tfidf": 895.04,
+      "ratio": 3.0035
+    },
+    {
+      "term": "цена",
+      "freq": 300,
+      "tfidf": 849.69,
+      "ratio": 2.8323
+    },
+    {
+      "term": "квартиру",
+      "freq": 278,
+      "tfidf": 798.28,
+      "ratio": 2.8715
+    },
+    {
+      "term": "депозит",
+      "freq": 254,
+      "tfidf": 765.0,
+      "ratio": 3.0118
+    },
+    {
+      "term": "рядом",
+      "freq": 246,
+      "tfidf": 748.22,
+      "ratio": 3.0416
+    },
+    {
+      "term": "не",
+      "freq": 214,
+      "tfidf": 717.43,
+      "ratio": 3.3525
+    },
+    {
+      "term": "phone",
+      "freq": 207,
+      "tfidf": 706.52,
+      "ratio": 3.4131
+    },
+    {
+      "term": "000",
+      "freq": 208,
+      "tfidf": 693.68,
+      "ratio": 3.335
+    },
+    {
+      "term": "этаж",
+      "freq": 216,
+      "tfidf": 676.45,
+      "ratio": 3.1317
+    },
+    {
+      "term": "море",
+      "freq": 204,
+      "tfidf": 664.47,
+      "ratio": 3.2572
+    },
+    {
+      "term": "кто",
+      "freq": 202,
+      "tfidf": 652.62,
+      "ratio": 3.2308
+    },
+    {
+      "term": "сауна",
+      "freq": 200,
+      "tfidf": 639.0,
+      "ratio": 3.195
+    },
+    {
+      "term": "5",
+      "freq": 192,
+      "tfidf": 635.93,
+      "ratio": 3.3121
+    },
+    {
+      "term": "комиссии",
+      "freq": 196,
+      "tfidf": 631.21,
+      "ratio": 3.2204
+    },
+    {
+      "term": "инфраструктура",
+      "freq": 187,
+      "tfidf": 617.27,
+      "ratio": 3.3009
+    },
+    {
+      "term": "из",
+      "freq": 181,
+      "tfidf": 611.11,
+      "ratio": 3.3763
+    },
+    {
+      "term": "евро",
+      "freq": 166,
+      "tfidf": 608.89,
+      "ratio": 3.668
+    },
+    {
+      "term": "м",
+      "freq": 174,
+      "tfidf": 607.45,
+      "ratio": 3.4911
+    },
+    {
+      "term": "месяц",
+      "freq": 176,
+      "tfidf": 602.92,
+      "ratio": 3.4257
+    },
+    {
+      "term": "комплекс",
+      "freq": 170,
+      "tfidf": 581.3,
+      "ratio": 3.4194
+    }
+  ],
+  "coverage": {
+    "speech_act": {
+      "neutral": 1435,
+      "request_only": 349,
+      "offer_only": 2
+    },
+    "regions": {
+      "Стамбул": 79,
+      "Анталия": 112,
+      "Аланья": 83,
+      "Турция": 13,
+      "Кемер": 21,
+      "Манавгат": 1,
+      "Сиде": 2
+    },
+    "total_messages": 1786
+  }
+}
