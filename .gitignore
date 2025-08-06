@@ -1,1 +1,15 @@
+# environment variables
 .env
+
+# ключи и сессии Telethon / ai
+*.session*
+
+# логи
+*.log
+metrics.json
+
+# кэш Python
+__pycache__/
+
+# macOS служебные файлы
+.DS_Store
